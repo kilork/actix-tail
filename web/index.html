@@ -23,8 +23,7 @@
             const newElement = document.createElement("li");
             newElement.innerHTML = event.data;
             eventList.appendChild(newElement);
-        };
-        evtSource.onerror = function (e) {
+            newElement.scrollIntoView(false);
         };
     </script>
 </body>
